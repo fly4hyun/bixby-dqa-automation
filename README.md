@@ -16,8 +16,9 @@
 
 * **Detection**: YOLOv12x 기반 문서 레이아웃 검출 (12 classes)
 * **Ordering**: 좌표 정규화 + 영역 히스토그램 기반 컬럼 추정 + 규칙 기반 Reading Order 알고리즘
-* **QA Generation**: 제목–본문–표/이미지 관계 기반 Rule-based QA 생성 + 스키마 검증
-* **Export**: 생성 결과를 Bixby DQA 스키마로 자동 변환(JSON/Excel)
+* **Structured Export**: 레이아웃·순서 정렬 결과를 DQA DB 스키마 형식으로 구조화 (QA 생성 이후 단계는 본 범위 외)
+
+---
 
 ## My Contribution
 
