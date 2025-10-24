@@ -47,30 +47,29 @@
 | 아이콘      |   229 |  450 |     0.986 |  0.969 |   0.984 |        0.934 |
 | 목차       |    11 |   14 |     0.977 |  1.000 |   0.995 |        0.995 |
 
-
 > 실제 숫자는 기업 정책 범위 내에서 기입
 
 ---
 
 ## Visual Examples
 
-### 1) Labeling Tool (가장 먼저)
+### 1) Labeling Tool
 
 <p align="center">
   <img src="docs/figures/labeling_tool.png" width="860"/>
 </p>
 
-### 2) 원본 vs 레이아웃 결과 (좌/우)
+### 2) 원본 vs 레이아웃 결과
 
 <p align="center">
   <img src="docs/figures/page_original.png" width="360"/>
   <img src="docs/figures/page_layout.png" width="360"/>
 </p>
 
-### 3) QA Export (Excel 결과)
+### 3) Structured Export (Excel)
 
 <p align="center">
-  <img src="docs/figures/qa_excel.png" width="860"/>
+  <img src="docs/figures/structured_export.png" width="860"/>
 </p>
 
-> 위 파일명을 그대로 추가하면 README가 자동으로 완성됩니다. 경로 통일: `docs/figures/`
+---
