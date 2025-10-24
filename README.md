@@ -47,10 +47,6 @@
 | 아이콘      |   229 |  450 |     0.986 |  0.969 |   0.984 |        0.934 |
 | 목차       |    11 |   14 |     0.977 |  1.000 |   0.995 |        0.995 |
 
-------|--------|--------|
-| Layout Detection | mAP@0.5 | 0.xx |
-| Reading Order | Kendall-τ | 0.xx |
-| QA Schema Validity | Pass Rate | xx.x% |
 
 > 실제 숫자는 기업 정책 범위 내에서 기입
 
@@ -58,15 +54,23 @@
 
 ## Visual Examples
 
-*(결과 이미지/레이아웃 박스 시각화/QA 결과 캡쳐 추가 예정)*
-`docs/figures/layout-demo.png`
-`docs/figures/qa-output.png`
+### 1) Labeling Tool (가장 먼저)
 
----
+<p align="center">
+  <img src="docs/figures/labeling_tool.png" width="860"/>
+</p>
 
-## Notes on Disclosure
+### 2) 원본 vs 레이아웃 결과 (좌/우)
 
-본 프로젝트는 **기업연계 프로젝트로 코드 및 원본 데이터는 비공개**합니다.
-문서화/샘플/구조 설명만 공개 가능 범위 내에서 제공됩니다.
+<p align="center">
+  <img src="docs/figures/page_original.png" width="360"/>
+  <img src="docs/figures/page_layout.png" width="360"/>
+</p>
 
----
+### 3) QA Export (Excel 결과)
+
+<p align="center">
+  <img src="docs/figures/qa_excel.png" width="860"/>
+</p>
+
+> 위 파일명을 그대로 추가하면 README가 자동으로 완성됩니다. 경로 통일: `docs/figures/`
