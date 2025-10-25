@@ -1,4 +1,4 @@
-# Bixby DQA Automation (Document → QA Auto Pipeline)
+# Document DQA Automation (Document → QA Auto Pipeline)
 
 > 삼성전자 제품 설명서 PDF로부터 Bixby DQA용 QA 데이터를 자동 생성하는 엔드투엔드 파이프라인
 > 기간: 2024.12 – 2025.04 | 역할: Vision·Document AI 설계·구현 전담
