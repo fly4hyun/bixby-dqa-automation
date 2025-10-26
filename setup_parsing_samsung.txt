@@ -1,0 +1,18 @@
+:: Anaconda 가상 환경 생성
+conda create --name dqa_samsung python=3.12.7 -y
+
+:: 가상 환경 활성화
+conda activate dqa_samsung
+
+:: 필요한 패키지 설치
+conda install -c conda-forge poppler -y
+pip install ultralytics==8.3.78
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip uninstall torchvision -y
+pip install torchvision --index-url https://download.pytorch.org/whl/cu118
+pip install PyQt5==5.15.11
+pip install easyocr==1.7.2
+pip install pdfplumber==0.11.5
+pip install regex==2024.11.6
+pip install pdf2image==1.17.0
+pip install openpyxl==3.1.5
